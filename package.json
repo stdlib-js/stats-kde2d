@@ -35,7 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-linspace": "^0.0.x",
+    "@stdlib/array-base-linspace": "^0.0.x",
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-error": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
