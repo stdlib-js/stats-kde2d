@@ -25,15 +25,15 @@ var EPS = require( '@stdlib/constants-float64-eps' );
 var abs = require( '@stdlib/math-base-special-abs' );
 var ndarray = require( '@stdlib/ndarray-base-ctor' );
 var kde2d = require( './../../dist' );
-var dataX = require( './../..xtures/r/datax.json' );
-var dataY = require( './../..xtures/r/datay.json' );
-var expected = require( './../..xtures/r/expected.json' );
-var dataX2 = require( './../..xtures/r/datax2.json' );
-var dataY2 = require( './../..xtures/r/datay2.json' );
-var expected2 = require( './../..xtures/r/expected2.json' );
-var dataXSmall = require( './../..xtures/r/dataxsmall.json' );
-var dataYSmall = require( './../..xtures/r/dataysmall.json' );
-var expectedSmall = require( './../..xtures/r/expectedsmall.json' );
+var dataX = require( './../fixtures/r/datax.json' );
+var dataY = require( './../fixtures/r/datay.json' );
+var expected = require( './../fixtures/r/expected.json' );
+var dataX2 = require( './../fixtures/r/datax2.json' );
+var dataY2 = require( './../fixtures/r/datay2.json' );
+var expected2 = require( './../fixtures/r/expected2.json' );
+var dataXSmall = require( './../fixtures/r/dataxsmall.json' );
+var dataYSmall = require( './../fixtures/r/dataysmall.json' );
+var expectedSmall = require( './../fixtures/r/expectedsmall.json' );
 
 
 // TESTS //
