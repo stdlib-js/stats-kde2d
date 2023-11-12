@@ -60,7 +60,7 @@
     "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/ndarray-array": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
