@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-kde2d/tags). For example,
+
+```javascript
 import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.0-deno/mod.js';
 ```
 
@@ -193,7 +198,7 @@ var out = kde2d( x, y, {
 
 ```javascript
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@deno/mod.js';
-import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.0-deno/mod.js';
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@deno/mod.js';
 
 var randX;
 var randY;
