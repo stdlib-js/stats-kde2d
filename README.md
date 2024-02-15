@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-kde2d/tags). For example,
+
+```javascript
 import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.0-esm/index.mjs';
 ```
 
@@ -198,7 +203,7 @@ var out = kde2d( x, y, {
 <script type="module">
 
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
-import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.0-esm/index.mjs';
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@esm/index.mjs';
 
 var randX;
 var randY;
