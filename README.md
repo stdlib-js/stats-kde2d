@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@deno/mod.js';
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.1-deno/mod.js';
 ```
 
 #### kde2d( x, y\[, opts] )
@@ -193,7 +193,7 @@ var out = kde2d( x, y, {
 
 ```javascript
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@deno/mod.js';
-import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@deno/mod.js';
+import kde2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.1-deno/mod.js';
 
 var randX;
 var randY;
