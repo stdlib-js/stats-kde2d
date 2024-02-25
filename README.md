@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-kde2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js' )
+kde2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var kde2d = require( 'path/to/vendor/umd/stats-kde2d/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -220,7 +220,7 @@ var out = kde2d( x, y, {
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
