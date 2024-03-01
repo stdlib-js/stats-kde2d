@@ -53,7 +53,7 @@
     "@stdlib/constants-float64-sqrt-two-pi": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/math-base-special-cos": "^0.2.1",
-    "@stdlib/math-base-special-exp": "^0.2.1",
+    "@stdlib/math-base-special-exp": "^0.2.2",
     "@stdlib/math-base-special-floor": "^0.2.1",
     "@stdlib/math-base-special-min": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
@@ -66,8 +66,8 @@
   },
   "devDependencies": {
     "@stdlib/ndarray-base-ctor": "^0.2.1",
-    "@stdlib/ndarray-ctor": "^0.2.0",
-    "@stdlib/random-base-normal": "^0.2.0",
+    "@stdlib/ndarray-ctor": "^0.2.1",
+    "@stdlib/random-base-normal": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
