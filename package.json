@@ -59,7 +59,7 @@
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-sqrt": "^0.2.1",
     "@stdlib/ndarray-array": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
     "@stdlib/types": "^0.3.2",
     "@stdlib/utils-define-read-only-property": "^0.2.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
