@@ -35,38 +35,32 @@ limitations under the License.
 
 > Two-dimensional kernel density estimation.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-kde2d
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-kde2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var kde2d = require( 'path/to/vendor/umd/stats-kde2d/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.kde2d;
-})();
-</script>
+var kde2d = require( '@stdlib/stats-kde2d' );
 ```
 
 #### kde2d( x, y\[, opts] )
@@ -95,7 +89,7 @@ var out = kde2d( x, y );
 
 The function has the ability to handle [ndarrays][nd-array]. Specifically the `ndarray` must be constructed so that there are two columns present, the first column containing the `x` values and the second column containing the `y` values.
 
-Note that for the output the `x` and `y` properties refer to the equally spaced gridpoints of `X` and `Y` used to calculate `z`. 
+Note that for the output the `x` and `y` properties refer to the equally spaced gridpoints of `X` and `Y` used to calculate `z`.
 
 <!-- eslint-disable array-element-newline -->
 
@@ -134,7 +128,7 @@ The function accepts the following `options`:
 -   **xMax**: a `number` indicating the upper bound of X. Must be strictly greater than `xMin`. Will default to the maximum value of `X`.
 -   **yMin**: a `number` indicating the lower bound of Y. Must be strictly less than `yMax`. Will default to the minimum value of `Y`.
 -   **yMax**: a `number` indicating the upper bound of Y. Must be strictly greater than `yMin`. Will default to the maximum value of `Y`.
--   **kernel**: a `string` or `function` indicating the kernel to be used when calculating the estimation. If a `string` is supplied then it will be matched to a pre-defined kernel function. Otherwise you may supply a function to support custom kernels. Will default to the `gaussian` kernel. 
+-   **kernel**: a `string` or `function` indicating the kernel to be used when calculating the estimation. If a `string` is supplied then it will be matched to a pre-defined kernel function. Otherwise you may supply a function to support custom kernels. Will default to the `gaussian` kernel.
 
 By default, the bandwidth argument is set by a builtin function. To choose different bandwidth values, set the `h` option. Note that if you use a custom bandwidth for one axis, you must also use a custom bandwidth for the other axis.
 
@@ -215,14 +209,9 @@ var out = kde2d( x, y, {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kde2d@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var normal = require( '@stdlib/random-base-normal' );
+var kde2d = require( '@stdlib/stats-kde2d' );
 
 var randX;
 var randY;
@@ -253,11 +242,6 @@ out = kde2d( x, y );
         'z': ndarray { Float64Array [9.8266e-11, 6.45e-9, ...]}
 }
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
