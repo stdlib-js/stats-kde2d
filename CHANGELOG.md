@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-06-03)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - **fix:** type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501) _(by Philipp Burckhardt)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Mara Averick
+-   Philipp Burckhardt
 
 </section>
 
