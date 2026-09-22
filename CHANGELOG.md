@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-09-22)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`1e66602`](https://github.com/stdlib-js/stdlib/commit/1e6660288b5ca4c5e5286f7477d51a08663be60c) - **test:** migrate `stats/kde2d` to ULP-based assertions [(#15331)](https://github.com/stdlib-js/stdlib/pull/15331) _(by Athan Reines)_
 -   [`fd16a2f`](https://github.com/stdlib-js/stdlib/commit/fd16a2f49cc7f6b16b610dc0b6ce5382d4d9f88f) - **build:** migrate JSDoc linting off removed core rules  [(#10965)](https://github.com/stdlib-js/stdlib/pull/10965) _(by Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - **fix:** type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501) _(by Philipp Burckhardt)_
