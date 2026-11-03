@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-05)
+## Unreleased (2026-11-03)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`525ef89`](https://github.com/stdlib-js/stdlib/commit/525ef89c72cd57abf9c8a0562ba1e7a3d345ad91) - **style:** clean-up [(#16475)](https://github.com/stdlib-js/stdlib/pull/16475) _(by Philipp Burckhardt)_
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
 -   [`1e66602`](https://github.com/stdlib-js/stdlib/commit/1e6660288b5ca4c5e5286f7477d51a08663be60c) - **test:** migrate `stats/kde2d` to ULP-based assertions [(#15331)](https://github.com/stdlib-js/stdlib/pull/15331) _(by Athan Reines)_
 -   [`fd16a2f`](https://github.com/stdlib-js/stdlib/commit/fd16a2f49cc7f6b16b610dc0b6ce5382d4d9f88f) - **build:** migrate JSDoc linting off removed core rules  [(#10965)](https://github.com/stdlib-js/stdlib/pull/10965) _(by Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
